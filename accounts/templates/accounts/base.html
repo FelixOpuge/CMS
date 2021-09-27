@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'accounts/bootstrap-grid.css' %}">
+    <link rel="stylesheet" href="{% static 'accounts/bootstrap-grid.min.css' %}">
+    <link rel="stylesheet" href="{% static 'accounts/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'accounts/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'accounts/bootstrap-reboot.css' %}">
+    <link rel="stylesheet" href="{% static 'accounts/bootstrap-reboot.min.css' %}">
+    <link rel="stylesheet" href="{% static 'accounts/main.css' %}">
+	<title>CMS</title>
+</head>
+<body>
+	{% include 'accounts/navbar.html' %}
+    {% block content %}
+
+    {% endblock %}
+    <br>
+    <h5>Our Footer</h5>
+</body>
+<script src="{% static 'accounts/bootstrap.bundle.js' %}"></script>
+<script src="{% static 'accounts/bootstrap.bundle.js.map' %}"></script>
+<script src="{% static 'accounts/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'accounts/bootstrap.bundle.min.js.map' %}"></script>
+<script src="{% static 'accounts/bootstrap.js' %}"></script>
+<script src="{% static 'accounts/bootstrap.js.map' %}"></script>
+<script src="{% static 'accounts/bootstrap.min.js' %}"></script>
+<script src="{% static 'accounts/bootstrap.min.js.map' %}"></script>
+<script src="{% static 'accounts/jquery-3.6.0.min.js' %}"></script>
+</html>
